@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.wrapper{
+    position: relative;
+}
+.inner-container{
+    width: 960px;
+    margin: 0 auto;
+}
+/*header part*/
+.header{
+    background: none;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 9999;
+}
+.header .inner-container{
+    padding-top: 25px;
+}
+.header h1{
+    color: #ff3d00;
+    font-size: 42px;
+    font-weight: lighter;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.header ul{
+    float: right;
+    line-height: 45px;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.header ul li:first-child{
+    margin-left: 0;
+}
+.header ul li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-size:14px;
+}
+.header ul li a:hover{
+    color: #ff3d00 !important;
+    transition: ease-in .8s;
+}
+.header ul li:nth-child(4){
+    position: relative;
+}
+.header ul li:nth-child(4):hover ul{
+    display: block;
+}
+.header ul li:nth-child(4) ul{
+    position: absolute;
+    float: none;
+    display: none;
+    background: #ffffff;
+    border: 1px solid #212121;
+    border-radius: 5px;
+}
+.header ul li:nth-child(4) ul li{
+    margin-left: 0;
+    border-bottom: 1px solid #d3d3d3;
+    width: 100%;
+}
+.header ul li:nth-child(4) ul li:last-child{
+    border-bottom: 0;
+}
+.header ul li:nth-child(4) ul li a{
+    color: rgba(0,0,50,0.8);
+    padding: 0 50px 0 20px;
+    width: 100%;
+}
+.header ul li:nth-child(6){
+    position: relative;
+}
+.header i{
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header i:hover{
+    color: #ff3d00;
+}
+.header i~ul{
+    position: relative;
+    float: none;
+    left: -940px;
+    top: 15%;
+}
+.header i~ul > li{
+    position: absolute;
+    left: 0;
+}
+.header input{
+    display: none;
+    background: #212121;
+    border-style: none;
+    border-top-color: #ffffff;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 940px;
+    margin-top: 8px;
+}
+/*main content part*/
+.main-content{
+    background: url("../images/bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 538px;
+    position: relative;
+}
+.main-content .inner-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content{
+    text-align: center;
+    position: relative;
+}
+.content h3{
+    color: #ffffff;
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    position: absolute;
+    top: -70px;
+    width: 100%;
+
+}
+.content p{
+    margin-top: 100px;
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 16px;
+}
+/*travelling part*/
+.travelling{
+    padding: 180px 0 80px;
+}
+.travelling h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+.travelling h4~p{
+    color: #777;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 0 40px;
+}
+.travelling ul{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.travelling ul li{
+    width: 28%;
+    float: left;
+    display: inline-block;
+    border: 2px solid #e5e5e5;
+    margin: 0 15px;
+    transform: translate(10%,0%);
+    padding-bottom: 20px;
+}
+.travelling img{
+    width: 100%;
+    height: 190px;
+}
+.travelling h5{
+    color: #ff3d00;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+.travelling p{
+    color: #777777;
+    font-size: 12px;
+    width: 80%;
+    line-height: 20px;
+    padding: 20px 0 20px 20px;
+}
+.travelling a{
+    background: #ff3d00;
+    color: #ffffff;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+/*service part*/
+.service{
+    background: url("../images/bg2.jpg") no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+.service h4{
+    color: #ffffff;
+    font-size: 44px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.service h4~p{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    width: 80%;
+    margin: 0 auto 50px;
+}
+.service-boxes{
+    overflow: hidden;
+}
+.service-boxes div{
+    width: 25%;
+    float: left;
+    background: #ffffff;
+    padding: 20px 20px;
+    margin: 25px 0 25px 30px;
+}
+.service-boxes div:nth-child(n+4){
+    margin-top: 0;
+}
+.service-boxes h5{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #333;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.service-boxes p{
+    color: #777777;
+    line-height: 25px;
+    font-size: 12px;
+}
+/*customer part*/
+.customers{
+    padding: 95px 0;
+}
+.customers .inner-container{
+    overflow: hidden;
+}
+.customers h4{
+    font-size: 44px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+}
+.customers h4~p{
+    margin-top: 40px;
+    color: #777777;
+    text-align: center;
+    line-height: 30px;
+}
+.join{
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+.join h5{
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.join p{
+    color: #777777;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.join a{
+    color: #ffffff;
+    background: #ff3d00;
+    border-radius: 2px;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.join ul{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.join li{
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+.join span{
+    color: #ff3d00;
+    font-size: 24px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.join h6{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.customers-carousel{
+    width: 60%;
+    background: #ff3d00;
+    float: right;
+    margin-top: 50px;
+}
+/*destination part*/
+.destination{
+    background: aqua;
+}
+/*new and update part*/
+.new-update{
+    background: dimgray;
+}
+/*footer*/
+.footer{
+    background: orange;
+}
