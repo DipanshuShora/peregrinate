@@ -237,6 +237,13 @@ body{
     background: #ffffff;
     padding: 20px 20px;
     margin: 25px 0 25px 30px;
+    overflow: hidden;
+}
+.service-boxes i{
+    margin-right: 10px;
+    float: left;
+    color: #ff3d00;
+    font-size: 25px;
 }
 .service-boxes div:nth-child(n+4){
     margin-top: 0;
@@ -405,9 +412,156 @@ body{
 }
 /*new and update part*/
 .new-update{
-    background: dimgray;
+    padding: 85px 0;
+}
+.new-update h4{
+    text-align: center;
+    font-size: 44px;
+    text-transform: capitalize;
+}
+.new-update h4~p{
+    color: #777777;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.news-boxes{
+    margin-top: 55px;
+}
+.news-boxes > ul{
+    overflow: hidden;
+    padding: 15px 0;
+}
+.news-boxes > ul > li{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    box-shadow: 0 1px 8px rgba(44,43,50,0.7);
+    border-radius: 2px;
+    overflow: hidden;
+}
+.news-boxes ul li ul{
+
+}
+.news-boxes img{
+    width: 100%;
+}
+.news-boxes ul li ul li{
+    display: inline-block;
+    width: 100%;
+}
+.news-boxes ul li ul li:first-child{
+
+}
+.news-boxes ul li div{
+    padding: 30px;
+}
+.news-boxes div h5{
+    color: #ff3d00;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.news-boxes div p{
+    font-size: 12px;
+    color: #777777;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.news-boxes div a{
+    color: #007bff;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.news-boxes ul li ul li:last-child{
+    background: rgba(0,0,0,.03);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+.news-boxes ul li ul li:last-child p{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    color: #6c757d;
+    font-size: 13px;
 }
 /*footer*/
 .footer{
-    background: orange;
+    background: #0e0f10;
+    padding: 95px 0;
+}
+.footer ul{
+    overflow: hidden;
+}
+.footer li{
+    width: 22%;
+    float: left;
+    display: inline-block;
+    margin-left: 24px;
+}
+.footer h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: #bfbfbf;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.footer span{
+    color: #ff3d00;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.recent-tours div{
+    border: 1px solid #777777;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.recent-tours img{
+    height: 40px;
+    width: 50px;
+}
+.footer li:last-child div{
+    display: inline-block;
+}
+.footer input{
+    background: none;
+    border: 1px solid #777777;
+    text-transform: capitalize;
+    color: #777777;
+    padding: 8px 12px;
+}
+.footer i{
+    color: #ffffff;
+    font-size: 24px;
+}
+.lower-footer{
+    background: #141415;
+    padding: 20px 0;
+}
+.lower-footer .inner-container{
+    overflow: hidden;
+}
+.lower-footer span{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.lower-footer span:first-child a{
+    color: #ff3d00;
+    text-decoration-line: none;
+}
+.lower-footer i{
+    color: #ffffff;
+    margin-left: 20px;
+}
+.lower-footer span:last-child{
+    float: right;
 }
